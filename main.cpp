@@ -16,6 +16,12 @@ int main()
 
     // TODO
 
+    if (weight <= 0 || weight > 20 || distance < 10 || distance > 3000)
+    {
+        cout << "Wrong input" << endl;
+        return 0;
+    }
+    
     cout << setw(10) << left << setprecision(2) << fixed;
     cout << total_charge << endl;
 
